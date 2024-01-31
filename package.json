@@ -1,0 +1,17 @@
+{
+  "name": "demoqa-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Priscila Caimi",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.10.3"
+  }
+}
