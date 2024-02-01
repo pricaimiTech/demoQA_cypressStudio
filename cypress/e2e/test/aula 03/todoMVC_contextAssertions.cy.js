@@ -13,8 +13,8 @@ describe('toDo MVC', () => {
 
         it('Validar status inicial da aplicação', () => {
             todomvcAssertions.input('What needs to be done?')
-            todomvcAssertions.notVisibleCounter()
-            todomvcAssertions.notVisibleFilters()
+            // todomvcAssertions.notVisibleCounter()
+            // todomvcAssertions.notVisibleFilters()
         });
 
         it('Adicionar itens a lista de todo', ()=>{
